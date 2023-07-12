@@ -1,0 +1,32 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "bcrypt": "^5.1.0",
+    "cloudinary": "^1.35.0",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.8.3",
+    "json-server": "^0.17.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.2",
+    "mongoose-paginate-v2": "^1.7.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "json-server-auth": "^2.1.0",
+    "vite": "^4.1.4",
+    "vite-plugin-node": "^3.0.2"
+  }
+}
